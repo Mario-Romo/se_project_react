@@ -19,5 +19,8 @@ Google Chrome Development Tools: to test and inspect elements upon rendering.
 JavaScript, HTML and CSS: used to develop the functionality's logic, markup and formatting styles.
 
 **Link to Project Repository in Github**
+https://github.com/Mario-Romo/se_project_react
+
 
 **Link to Deployed Version in GitHub Pages**
+https://Mario-Romo.github.io/se_project_react
