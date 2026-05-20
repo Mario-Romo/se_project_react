@@ -1,8 +1,23 @@
-# React + Vite
+# Project 10: "WTWR What To Wear App"
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Intro
+- List of Technologies Used
+- Link to Project Repository in GitHub
+- Link to Deployed Version in GitHub Pages
 
-Currently, two official plugins are available:
+**Intro**
+The objective of this project is start the working structure of an application called WTWR that allows users to select a particular garment according with the current type of weather. By filling out a form the users will receive clothing recommendations. The project makes use of Vite to scaffold the project and React and JavaScript to develop components and make API requests.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**List of Technologies Used**
+VS Code: used to develop the code's functionality.
+Figma: used as a design guide and as the source of all images.
+GitHub: used to store the project's repository.
+GitHub Pages: used to publish the website.
+React: used with JavaScript to develop the components and their functionality.
+Vite: used to scaffold the project and build all basic parts before developing the code.
+Google Chrome Development Tools: to test and inspect elements upon rendering.
+JavaScript, HTML and CSS: used to develop the functionality's logic, markup and formatting styles.
+
+**Link to Project Repository in Github**
+
+**Link to Deployed Version in GitHub Pages**
