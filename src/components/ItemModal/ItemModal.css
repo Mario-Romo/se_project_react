@@ -8,7 +8,7 @@
 	position: fixed;
 	flex-direction: column;
 	padding: 0;
-    /*visibility: hidden;*/
+	/*visibility: hidden;*/
 }
 
 .itemModal__content_type_image {
@@ -22,8 +22,8 @@
 	right: 24px;
 	opacity: 100%;
 	padding: 0;
-    background: none;
-    border: none;
+	background: none;
+	border: none;
 }
 
 .itemModal__image {
@@ -34,7 +34,6 @@
 }
 
 .itemModal__footer {
-    
 }
 
 .itemModal__caption {
@@ -45,8 +44,7 @@
 	color: #000000;
 	margin-top: 20px;
 	margin-bottom: 12px;
-    margin-left: 32px;
-	
+	margin-left: 32px;
 }
 
 .itemModal__weather {
@@ -54,7 +52,7 @@
 	font-size: 20px;
 	line-height: 24px;
 	letter-spacing: 0%;
-    margin-top: 0px;
+	margin-top: 0px;
 	margin-bottom: 32px;
 	margin-left: 32px;
 }
