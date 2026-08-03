@@ -1,0 +1,75 @@
+.DeleteConfirmationModal__content {
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px 20px 60px 20px;
+
+	width: 670px;
+
+	border-radius: 20px;
+	overflow: hidden;
+	background-color: #ffffff;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	gap: 1rem;
+}
+
+.DeleteConfirmationModal__close {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width: 20px;
+	height: 20px;
+	opacity: 30%;
+	padding: 0;
+	background: none;
+	border: none;
+}
+
+.DeleteConfirmationModal__message {
+	padding-top: 40px;
+	max-width: 367px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: 0%;
+	text-align: center;
+	color: #000000;
+}
+
+.DeleteConfirmationModal__actionButtons {
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	width: 100%;
+	gap: 1rem;
+	align-items: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+.DeleteConfirmationModal__button {
+	padding: 0;
+	width: 138px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: 0%;
+	color: #ff4d00;
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+
+.DeleteConfirmationModal__cancelButton {
+	width: 61px;
+	padding: 0;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: 0%;
+	color: #000000;
+	background: none;
+	border: none;
+	cursor: pointer;
+}

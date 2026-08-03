@@ -1,17 +1,13 @@
 .itemModal__content {
+	display: flex;
+	
+	flex-direction: column;
 	max-width: 498px;
 	height: 610px;
 	border-radius: 16px;
-	background-color: #0c83be;
+	background-color: #ffffff;
 	border: none;
-	display: flex;
-	position: fixed;
-	flex-direction: column;
 	padding: 0;
-	/*visibility: hidden;*/
-}
-
-.itemModal__content_type_image {
 }
 
 .itemModal__close {
@@ -34,6 +30,10 @@
 }
 
 .itemModal__footer {
+	display: flex;
+	align-items: center;
+	/* allow wrapping*/
+	flex-wrap: wrap;
 }
 
 .itemModal__caption {
@@ -45,6 +45,8 @@
 	margin-top: 20px;
 	margin-bottom: 12px;
 	margin-left: 32px;
+	/* pushes the delete button to the right */
+	flex-grow: 1;
 }
 
 .itemModal__weather {
@@ -52,7 +54,21 @@
 	font-size: 20px;
 	line-height: 24px;
 	letter-spacing: 0%;
-	margin-top: 0px;
+	/*margin-top: 0px;*/
 	margin-bottom: 32px;
 	margin-left: 32px;
+	/*forces the text on to its own line: */
+	width: 100%;
+}
+
+.itemModal__deleteButton {
+	margin-right: 33.56px;
+	/*margin-left: auto;*/
+	padding: 0;
+	color: #ff4d00;
+	background: none;
+	font-weight: 700;
+	border: none;
+	font-size: 20px;
+	line-height: 24px;
 }

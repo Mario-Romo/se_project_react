@@ -21,6 +21,9 @@ JavaScript, HTML and CSS: used to develop the functionality's logic, markup and 
 **Link to Project Repository in Github**
 https://github.com/Mario-Romo/se_project_react
 
+**Link to the Video Demo Presentation in Loom**
+Check out a video presentation on this project here (view only):
+https://www.loom.com/share/a07324bae7c8401fa0e8965ac873df06
 
 **Link to Deployed Version in GitHub Pages**
 https://Mario-Romo.github.io/se_project_react

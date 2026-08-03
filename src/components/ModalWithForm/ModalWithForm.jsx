@@ -1,7 +1,8 @@
 import './ModalWithForm.css';
-import closeIcon from '../../assets/x-close-btn.png'
+import closeIcon from '../../assets/x-close-btn.png';
 
 function ModalWithForm({
+	buttonText = 'Add garment',
 	children,
 	title,
 	name,
@@ -9,7 +10,6 @@ function ModalWithForm({
 	onClose,
 	onOverlayClick,
 	onSubmit,
-	buttonText,
 }) {
 	return (
 		<div
