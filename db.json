@@ -61,6 +61,12 @@
       "imageUrl": "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/wtwr-project/Sandals.png?etag=9bea85a77c0306586d2b71a33b626d41"
     },
     {
+      "_id": 10,
+      "name": "Scarf",
+      "weather": "cold",
+      "imageUrl": "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/wtwr-project/Scarf.png?etag=74efbee93810c926b5507e862c6cb76c"
+    },
+    {
       "_id": 11,
       "name": "Shorts",
       "weather": "hot",
@@ -97,10 +103,88 @@
       "imageUrl": "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/wtwr-project/T-Shirt.png?etag=44ed1963c44ab19cd2f5011522c5fc09"
     },
     {
+      "name": "Mario R",
+      "imageUrl": "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/wtwr-project/Beanie.png?etag=bc10497cc80fa557f036e94f9999f7b2",
+      "weather": "warm",
+      "_id": 17
+    },
+    {
+      "name": "Mario Romo",
+      "imageUrl": "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/wtwr-project/Shirt.png?etag=0f5c7d8e9a2b6f4c1e3b8f5d6e7a9c2d",
+      "weather": "cold",
+      "_id": 18
+    },
+    {
+      "name": "Mario",
+      "imageUrl": "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/wtwr-project/Jeans.png?etag=58345e8bef1ce5f95ac882e71d309e6c",
+      "weather": "hot",
+      "_id": 19
+    },
+    {
+      "name": "Mario",
+      "imageUrl": "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/wtwr-project/Scarf.png?etag=74efbee93810c926b5507e862c6cb76c",
+      "weather": "warm",
+      "_id": 20
+    },
+    {
+      "name": "Mario 12",
+      "imageUrl": "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/wtwr-project/Beanie.png?etag=bc10497cc80fa557f036e94f9999f7b2",
+      "weather": "warm",
+      "_id": 21
+    },
+    {
+      "name": "Mario 14",
+      "imageUrl": "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/wtwr-project/Shirt.png?etag=0f5c7d8e9a2b6f4c1e3b8f5d6e7a9c2d",
+      "weather": "warm",
+      "_id": 22
+    },
+    {
+      "name": "Mario",
+      "imageUrl": "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/wtwr-project/Scarf.png?etag=74efbee93810c926b5507e862c6cb76c",
+      "weather": "warm",
+      "_id": 23
+    },
+    {
+      "name": "Mario",
+      "imageUrl": "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/wtwr-project/Jeans.png?etag=58345e8bef1ce5f95ac882e71d309e6c",
+      "weather": "cold",
+      "_id": 24
+    },
+    {
       "name": "Mario",
       "imageUrl": "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/wtwr-project/Beanie.png?etag=bc10497cc80fa557f036e94f9999f7b2",
       "weather": "cold",
-      "_id": 17
+      "_id": 25
+    },
+    {
+      "name": "Mario",
+      "imageUrl": "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/wtwr-project/Jeans.png?etag=58345e8bef1ce5f95ac882e71d309e6c",
+      "weather": "hot",
+      "_id": 26
+    },
+    {
+      "name": "Mario 13",
+      "imageUrl": "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/wtwr-project/Beanie.png?etag=bc10497cc80fa557f036e94f9999f7b2",
+      "weather": "warm",
+      "_id": 27
+    },
+    {
+      "name": "Mario 15",
+      "imageUrl": "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/wtwr-project/Shirt.png?etag=0f5c7d8e9a2b6f4c1e3b8f5d6e7a9c2d",
+      "weather": "cold",
+      "_id": 28
+    },
+    {
+      "name": "Mario16",
+      "imageUrl": "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/wtwr-project/Scarf.png?etag=74efbee93810c926b5507e862c6cb76c",
+      "weather": "warm",
+      "_id": 29
+    },
+    {
+      "name": "Mario",
+      "imageUrl": "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/wtwr-project/Shirt.png?etag=0f5c7d8e9a2b6f4c1e3b8f5d6e7a9c2d",
+      "weather": "cold",
+      "_id": 30
     }
   ]
 }

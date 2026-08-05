@@ -64,7 +64,7 @@ function App() {
 		setSelectedCard(card);
 	};
 
-	/* onConfirmDelete opens the 'delete confirmation modal' (when the "Delete item" button is clicked)*/
+	/* onDeleteItem opens the 'delete confirmation modal' (when the "Delete item" button is clicked)*/
 	const onDeleteItem = (card) => {
 		setActiveModal('delete-confirmation');
 		setSelectedCard(card);
@@ -82,20 +82,21 @@ function App() {
 			.catch(console.error);
 	};
 
+	/* onAddItem handles the addition of a new item when the user submits the AddItemModal form */
 	const onAddItem = (inputValues, reset) => {
 		const newCardData = {
 			name: inputValues.name,
 			imageUrl: inputValues.imageUrl,
 			weather: inputValues.weatherType,
 		};
-		addItem(newCardData)
+
+		addItem(newCardData) //starts an async request to add the new item to the server
 			.then((data) => {
 				setClothingItems([data, ...clothingItems]); // update the clothingItems state with the new item
 				closeActiveModal(); // close the modal only after successful submission
+				reset(); // reset the form fields after submission but only if the submission was successful
 			})
-			.catch(console.error);
-
-		reset(); // reset the form fields after submission
+			.catch(console.error); // only handles errors, does not close the modal or reset the form fields if there was an error
 	};
 
 	/* this effect uses the user's coordinates to request weather data from API it also loads upon component mount */
@@ -113,16 +114,6 @@ function App() {
 			})
 			.catch(console.error);
 	}, []);
-
-	// TO DO:
-	// - add a delete button to the preview modal
-	// - declare a handler in App.jsx for it (i.e.,deleteItemHandler)
-	// - pass handler to preview modal
-	// - inside preview modal, pass the id as an argument to the handler (use the handler pattern found in ItemCard)
-	// inside the handler
-	// - call the removeItem function from api.js, pass it the ID (not the object!)
-	// - in the .then() remove the item from the array
-	// - how? filter
 
 	/* this effect closes modals using ESC key*/
 	useEffect(() => {
